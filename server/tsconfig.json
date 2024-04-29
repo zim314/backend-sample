@@ -1,0 +1,24 @@
+{
+  "ts-node": {
+    "esm": true,
+    // https://nodejs.org/dist/latest-v18.x/docs/api/esm.html#customizing-esm-specifier-resolution-algorithm
+    "experimentalSpecifierResolution": "node"
+  },
+  "compilerOptions": {
+    "target": "ESNext",
+    "allowJs": false,
+    "skipLibCheck": true,
+    "esModuleInterop": true, 
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "noFallthroughCasesInSwitch": true,
+    "baseUrl": "src",
+  },
+}
